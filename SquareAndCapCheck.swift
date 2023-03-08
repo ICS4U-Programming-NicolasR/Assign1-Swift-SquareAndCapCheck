@@ -44,7 +44,7 @@ repeat {
                     let squareCheckVar = squareCheck(length: lengthUsr,
                                          width: widthUsr)
                     // if it is a square display that it is a square
-                    if (squareCheckVar) {
+                    if squareCheckVar {
                         print("You have a square!")
                     } else {
                         print("You have a rectangle!")
